@@ -7,33 +7,30 @@
     android:background="#FEDAA6"
     android:gravity="center">
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="How Many Glass Of Water Do You Drink?"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="45dp"
-        android:textStyle="bold" />
+        android:text="What is your Weigth in Kg"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
 
     <EditText
         android:id="@+id/editTextNUMBER"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="       Glasses      "
-        android:textStyle="bold"
-        android:textSize="32dp"
-        android:textAlignment="center"
-        android:layout_marginBottom="28dp"/>
+        android:hint="     85 Kg     "
+        android:layout_marginBottom="32dp"
+
 
     <Button
+        android:id="@+id/buttonSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:Style="bold"
         android:text="Submit"
-        android:background="#FFFF"
-        android:layout_gravity="right"/>
-
+        android:layout_gravity="right"
 </LinearLayout>
+
     </LinearLayout>
